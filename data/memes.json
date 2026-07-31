@@ -2,5 +2,9 @@
     {
         "title": "Day One",
         "image": "memes/meme1.JPEG"
+    },
+    {
+        "title": "Day Two",
+        "image": "memes/meme2.jpg"
     }
 ]
