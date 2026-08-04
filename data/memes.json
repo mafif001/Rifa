@@ -9,6 +9,14 @@
     },
     {
         "title": "Day Three",
+        "image": "memes/meme3.jpg"
+    },
+    {
+        "title": "Day Four",
         "image": "memes/meme4.jpg"
+    },
+    {
+        "title": "Day Five",
+        "image": "memes/meme5.jpg"
     }
 ]
