@@ -184,10 +184,10 @@ h1 {
 }
 
 /* ------------------------------ */
-/* Meme Page */
+/* Song Page */
 /* ------------------------------ */
 
-.meme-container {
+.song-container {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -196,14 +196,14 @@ h1 {
     margin: 70px auto;
 }
 
-#memeTitle {
+#songTitle {
     font-size: 5rem;
     color: #6f52d9;
     margin-bottom: 35px;
     text-align: center;
 }
 
-#dailyMeme {
+#dailySong {
     width: 90%;
     max-width: 550px;
 
@@ -214,10 +214,9 @@ h1 {
     transition: transform .25s;
 }
 
-#dailyMeme:hover {
+#dailySong:hover {
     transform: scale(1.02);
 }
-
 /* ------------------------------ */
 /* Mobile */
 /* ------------------------------ */

@@ -159,16 +159,16 @@ if (
 
 //Daily Meme
 
-// DAILY PICTURE
+// DAILY SONG
 
 if (
-    document.getElementById("memeTitle") &&
-    document.getElementById("dailyMeme")
+    document.getElementById("songTitle") &&
+    document.getElementById("dailySong")
 ) {
 
-    fetch("data/memes.json")
+    fetch("data/songs.json")
         .then(response => response.json())
-        .then(pictures => {
+        .then(songs => {
 
             const now = new Date();
             now.setHours(0,0,0,0);
@@ -179,26 +179,26 @@ if (
             const dayNumber =
                 Math.floor((now - tripStart) / (1000 * 60 * 60 * 24)) + 1;
 
-            const pictureIndex = dayNumber - 5;
+            const songIndex = dayNumber - 5;
 
             let today;
 
-            if (pictureIndex < 0) {
-                document.getElementById("memeTitle").textContent =
+            if (songIndex < 0) {
+                document.getElementById("songTitle").textContent =
                     "Not Yet 💜";
                 return;
             }
 
-            if (pictureIndex >= pictures.length) {
-                today = pictures[pictures.length - 1];
+            if (songIndex >= songs.length) {
+                today = songs[songs.length - 1];
             } else {
-                today = pictures[pictureIndex];
+                today = songs[songIndex];
             }
 
-            document.getElementById("memeTitle").textContent =
-                today.title;
+            document.getElementById("songTitle").textContent =
+                today.song;
 
-            document.getElementById("dailyMeme").src =
+            document.getElementById("dailySong").src =
                 today.image;
         });
-}
+    }
