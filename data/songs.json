@@ -32,5 +32,10 @@
         "title": "Day Two:",
         "song": "No Problem by Chance The Rapper, 2 Chainz & Lil Wayne",
         "image": "songs/song1.jpeg"
+    },
+    {
+        "title": "Day Three:",
+        "song": "Ratchet Happy Birthday by Drake",
+        "image": "songs/song2.jpeg"
     }
 ]
