@@ -82,5 +82,10 @@
         "title": "Day Thirteen",
         "song": "How To Love by Lil Wayne",
         "image": "songs/song10.jpeg"
+    },
+    {
+        "title": "Day Fourteen",
+        "song": "Hold Tight by Justin Bieber",
+        "image": "songs/song11.jpeg"
     }
 ]
